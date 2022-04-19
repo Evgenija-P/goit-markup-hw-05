@@ -110,25 +110,6 @@ img {
     margin-right: 50px;
 }
 
-@keyframes bordSee {
-    0% {
-        opacity: 0;
-    }
-
-    100% {
-        opacity: 1;
-    }
-}
-
-
-/* .header-stud:hover::after, 
-.header-portf:hover::after,
-.header-kont:hover::after {
-    opacity: 1;
-
-    animation-fill-mode: forwards;
-} */
-
 
 .header-stud::after {
     display: inline-block;
