@@ -111,6 +111,7 @@ img {
 }
 
 
+
 .header-stud::after {
     display: inline-block;
     position: absolute;
@@ -177,6 +178,14 @@ img {
 }
 .header-item{color: var(--basic-color)}
 .header-contacts {color: var(--second-color)}
+
+.header-stud {
+    color: var(--accent-color);
+}
+
+.header-portf {
+    color: var(--accent-color);
+}
 
 .header-item:hover,
 .header-item:focus,
