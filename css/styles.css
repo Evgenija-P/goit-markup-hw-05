@@ -172,12 +172,17 @@ img {
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
+
+}
+.header-item{color: var(--basic-color)
     transition-property: сolor;
     transition-duration: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
-.header-item{color: var(--basic-color)}
-.header-contacts {color: var(--second-color)}
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1) }
+
+.header-contacts {color: var(--second-color)
+    transition-property: сolor;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);}
 
 .header-stud {
     color: var(--accent-color);
@@ -455,7 +460,7 @@ img {
     line-height: 1.17;
     text-align: center;
     letter-spacing: 0.03em;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 
 .client-list {
